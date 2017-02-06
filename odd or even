@@ -1,0 +1,23 @@
+integer = int(input('''This program will tell you if the integer you enter is odd or even and if it is a multible of four.
+please enter an integer '''))
+integer1 = integer % 2
+integer2 =integer % 4
+#calculates odd or even
+if integer1 == 0:
+  print("Your number is even")
+else:
+  print("Your number is odd")
+#calculates multible of four
+if integer2 == 0:
+  print("It is also a multible of four")
+else:
+  print()
+#calculates if # is divisible into other #
+print("Next im going to tell if you any integer divides evenly into another integer")
+num = int(input("Please enter the integer you want to check. "))
+checker = int(input("Now please enter the number you want to be the number you divide by."))
+newnum = num % checker 
+if newnum == 0:
+  print("Your first number divides evenly into your second number")
+else:
+  print("Your first number doesn't divide evenly into your second number")
